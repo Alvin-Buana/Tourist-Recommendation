@@ -1,8 +1,18 @@
-.banner {
+/* .banner {
   background-color: #004643;
   padding-top: 15%;
   padding-bottom: 20%;
   color: #abd1c6;
+} */
+
+.banner {
+  background-image: url(img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 15%;
+  color: #fffffe;
 }
 
 h1,
