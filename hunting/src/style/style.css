@@ -117,12 +117,18 @@ body {
   color: #abd1c6;
 }
 
-.btn-success {
+.card {
   background-color: #004643;
+  color: #abd1c6;
+}
+
+.btn-success {
+  background-color: #f9bc60;
+  color: #001e1d;
   font-family: 'Roboto', sans-serif;
 }
 
 .btn-success:hover {
-  background-color: #f9bc60;
-  color: #001e1d;
+  background-color: #001e1d;
+  color: #abd1c6;
 }
