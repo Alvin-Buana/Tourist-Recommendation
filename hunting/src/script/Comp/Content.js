@@ -6,10 +6,10 @@ class Content extends HTMLElement {
   }
 
   render() {
-    this.setAttribute('class', 'col col-sm-4 col-xs-6');
+    this.setAttribute('class', 'col-6 col-sm-6 col-md-4 col-lg-4');
     this.innerHTML = `
-        <div class="card" style="width: 25rem; margin-bottom :10px;">
-          <img src="${this._place.Link}" class="card-img-top" alt="${this._place.Place_Name}" style = "width: 24.9rem; height : 18rem;">
+        <div class="card" style="width: 25vw; margin-bottom :10px;">
+          <img src="${this._place.Link}" class="card-img-top img-fluid" alt="${this._place.Place_Name}" style = "width: 24.9vw; height : 18vw;object-fit: cover;">
             <div class="card-body">
               <h5 class="card-title" >${this._place.Place_Name}</h5>
                 <p class="card-text">${this._place.Category ? this._place.Category : '-'}</p>
