@@ -92,7 +92,14 @@ body {
   .search-container > button {
     width: 100%;
   }
+  .card-img-top{
+    width: 10rem;
+    height: auto;
+  }
   
+  .card{
+    width: 10rem;
+  }
 
 }
 
