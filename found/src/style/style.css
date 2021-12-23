@@ -48,3 +48,15 @@ h1 {
   background-color: #f9bc60;
   color: #001e1d;
 }
+.Desc{
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 550px) {
+  .Desc{
+    
+    font-size: 1.2rem;
+  }
+  .display-6{
+    font-size: 1.5rem;
+  }
+}

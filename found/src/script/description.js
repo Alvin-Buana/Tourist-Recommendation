@@ -30,14 +30,19 @@ class desc extends HTMLElement {
   }
   render2() {
     this.innerHTML = `
+    
       <div class="jumbotron bground" style="background-image: url(${this._place.Link});"">
         <p class="fw-bold display-1">${this._place.Place_Name}</p>
             <p class="fw-normal lead">Category : ${this._place.Category} </p>
             <p class="fw-normal lead">Location : ${this._place.City} </p>
         </div>
-        <p>${this._place.Description}</p>
+        <div class="container-lg">
+        <p class = "Desc">${this._place.Description}</p>
         <br>
-        <p class = "fw-bold display-6"> Places that you might like : </p>
+        <p class = "Desc"> <ins>Price : ${this._place.Price}</ins></p>
+        <br>
+        </div>
+        
       `;
   }
 }
