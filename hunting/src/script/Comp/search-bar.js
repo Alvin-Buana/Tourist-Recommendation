@@ -20,6 +20,7 @@ class SearchBar extends HTMLElement {
   render() {
     this.shadowDOM.innerHTML = `
       <link rel="stylesheet" href="./src/style/style.css" />
+      <script src="https://kit.fontawesome.com/d6b1ffccb3.js" crossorigin="anonymous"></script>
      
       <div class="sticky-bg ">
         <a  class="backbutton" href="../index.html">WISHUNT</a>
@@ -27,6 +28,7 @@ class SearchBar extends HTMLElement {
         <form id="searchBar" class="search-container">
           <input placeholder="Search Place" id="searchElement" type="search">
           <button id="searchButtonElement" type="submit">Search</button>
+          
         </form>
        </div>
        `;

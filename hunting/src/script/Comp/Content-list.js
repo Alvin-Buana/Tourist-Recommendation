@@ -17,9 +17,14 @@ class ContentList extends HTMLElement {
                 -ms-user-select: none;
                 user-select: none;
                 text-align: center;
+                aling-items: center;
+                justify-content: center;
+                display: flex;
             }
         </style>`;
-    this.innerHTML += `<h2 class="placeholder">${message}</h2>`;
+    this.innerHTML += `
+    <h2 class="placeholder">${message}</h2>
+    `;
   }
 
   render() {
