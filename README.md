@@ -35,6 +35,7 @@ Algoritma yang digunakan untuk project ini adalah algoritma *cosine similarity*.
 - Machine Learning  : <a href = "https://www.tensorflow.org/">Tensorflow</a>
 - Hosting API       : <a href = "https://www.heroku.com">Heroku</a>
 - Web Hosting       : <a href = "https://hostman.com">Hostman</a>
+- Rest API          : <a href = "https://flask.palletsprojects.com/en/2.0.x/">Flask</a>
 
 
 
