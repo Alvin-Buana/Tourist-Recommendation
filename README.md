@@ -3,13 +3,13 @@
   <img src="Selamat_Datang.png" alt="Project Preview image" title="Project Preview"/>
 </p>
 
-## What is Wisata Hunting ?
+## Apa itu Wishunt ?
 
-Wisata hunting adalah aplikasi untuk merekomendasikan tempat tempat pariwisata yang menarik untuk para user. Dilengkapi dengan sistem rekomendasi yang dapat membantu user 
-untuk semakin tertarik mengexplore wilayah indonesia dan melihat tempat tempat wisata yang mempesona. User juga dapat melatih wawasannya dengan kuis yang disediakan dalam webpage kami.
+Wishunt adalah singkatan dari Wisata Hunting yang merupakan aplikasi untuk merekomendasikan tempat-tempat pariwisata yang menarik untuk para user. Dilengkapi dengan sistem rekomendasi yang dapat membantu user untuk semakin tertarik mengexplore wilayah indonesia dan melihat tempat tempat wisata yang mempesona. User juga dapat melatih wawasannya dengan quiz yang disediakan dalam website kami.
 
 ## Latar Belakang
-Berkunjung ke tempat wisata merupakan salah satu kegiatan yang menyenangkan dan dapat memberikan ketenangan. Pada kondisi pandemi sekarang ini, akses tempat wisata ditutup mengacu pada kebijakan yang diberikan oleh pemerintah. Setelah melakukan survey kepada 74 responden terkait pariwisata, 66 orang atau sekitar 90% mengatakan akan berkunjung ke tempat wisata setelah akses tempat umum kembali dibuka, 53 orang atau sekitar 72% responden mengatakan membutuhkan semacam informasi berupa rekomendasi tempat wisata yang dapat dikunjungi untuk memudahkan mereka dalam memilih tempat wisata. Berdasarkan kondisi ini, tim kami menawarkan solusi berupa Tourist Destination Recommendation untuk membantu wisatawan mendapatkan rekomendasi lokasi wisata. Kami menawarkan solusi dengan menggunakan teknologi Machine Learning yang di deploy sebagai aplikasi website. Alasan kami menggunakan teknologi ini adalah mengacu pada learning path kami yaitu Machine Learning dan Front-End Web. Pada sisi website, kami menggunakan pengetahuan yang kami dapatkan di kelas Front-End, dan pada sisi Machine Learning, kami menggunakan pengetahuan yang kami dapatkan di kelas Machine Learning. Kami menggunakan teknik Content-Based Filtering dan teknik Collaboative Filtering. Kesimpulan yang kami dapatkan adalah aplikasi ini berhasil memberikan rekomendasi dengan tepat, beradasarkan kedua teknik yang digunakan.
+
+Berkunjung ke tempat wisata merupakan salah satu kegiatan yang menyenangkan dan dapat memberikan ketenangan. Pada kondisi pandemi sekarang ini, akses tempat wisata ditutup mengacu pada kebijakan yang diberikan oleh pemerintah. Setelah melakukan survey kepada 74 responden terkait pariwisata, 66 orang atau 89% mengatakan akan berkunjung ke tempat wisata setelah akses tempat umum kembali dibuka, 53 orang atau sekitar 72% responden mengatakan membutuhkan semacam informasi berupa rekomendasi tempat wisata yang dapat dikunjungi untuk memudahkan mereka dalam memilih tempat wisata.
 
 ## Penjelasan Algoritma
 Algoritma yang digunakan untuk project ini adalah algoritma *cosine similarity*. *Cosine Similarity* merupakan model yang menghitung similaritas antara satu item dengan lainnya sehingga bisa dinyatakan bahwa item satu dengan lainnya mirip atau serupa. Cara menghitung *cosine similarity* adalah sebagai gambar dibawah ini :
@@ -37,6 +37,8 @@ Algoritma yang digunakan untuk project ini adalah algoritma *cosine similarity*.
 - Hosting API       : <a href = "https://www.heroku.com">Heroku</a>
 - Web Hosting       : <a href = "https://hostman.com">Hostman</a>
 - Rest API          : <a href = "https://flask.palletsprojects.com/en/2.0.x/">Flask</a>
+- Jumbotron : <a href = "https://www.freepik.com/free-photo/beautiful-shot-lake-with-mountains-background_17232107.htm#query=danau%20toba&position=23&from_view=search">Wirestock Freepik</a>
+- Description img : <a href = "https://www.freepik.com/free-photo/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake_8270060.htm#query=ulun%20danu&position=5&from_view=keyword">Halayalex - Freepik</a>
 
 
 
